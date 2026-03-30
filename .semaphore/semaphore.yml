@@ -25,3 +25,5 @@ blocks:
             - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
             - 'docker tag myapp brada45/myapp:v1'
             - 'docker push brada45/myapp:v1'
+      secrets:
+        - name: Docker Srdjan
